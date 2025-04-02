@@ -1,0 +1,25 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    </head>
+
+    <body>
+
+        <!-- Inline -->
+        <button class="button" onclick="alert('Bu Inline usuldur')">Cabir</button>
+
+        <!-- Internal -->
+        <script>
+            document.querySelector('.button').addEventListener('click', () => {
+                alert('Bu Internal usuludur')
+            })
+        </script>
+
+
+    </body>
+    <!-- External -->
+    <script src="ders-1.js"></script>
+</html>
